@@ -1,0 +1,58 @@
+{
+  "expo": {
+    "name": "meds-app",
+    "slug": "meds-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "scheme": "myapp",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "cz.matybukva.medsapp",
+      "infoPlist": {
+        "NSCameraUsageDescription": "This app uses the camera to scan barcodes."
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "cz.matybukva.medsapp"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "a2fefebb-5dcf-4690-8d15-11451cdcec0d"
+      }
+    },
+    "plugins": [
+      [
+        "react-native-auth0",
+        {
+          "domain": "medsapp.eu.auth0.com"
+        }
+      ],
+      [
+        "react-native-vision-camera",
+        {
+          "enableCodeScanner": true
+        }
+      ],
+      "expo-router"
+    ]
+  }
+}
