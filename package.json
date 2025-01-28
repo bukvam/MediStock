@@ -8,12 +8,15 @@
   },
   "dependencies": {
     "@react-navigation/stack": "^7.1.1",
+    "expo-camera": "~16.0.14",
     "expo-router": "^4.0.15",
-    "react-native-paper": "^5.12.5"
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-native-paper": "^5.12.5",
+    "styled-components": "^5.3.11"
   },
   "devDependencies": {
     "@types/react": "~18.3.12",
-    "@types/react-native": "^0.73.0",
     "typescript": "^5.5.3"
   },
   "private": true
