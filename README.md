@@ -1,3 +1,5 @@
+![alt text](https://cloud-pt69urpu9-hack-club-bot.vercel.app/0logo-no-background.png)
+
 # MediStock
 
 **Easy-to-use modern medication stock management app.**
