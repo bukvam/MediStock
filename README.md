@@ -15,4 +15,4 @@ This app was designed with everybody in mind. It's UI makes it easy for everyone
 4) Dark mode
    * The app also supports dark mode, to make it easier on your eyes.
 5) Multipurpose
-   * MediStock was originally built
+   * MediStock was originally built just for keeping track of medications, but you're free to use it to track the stock of almost anything and everything! From how much things you have in your freezer all the way to how much coffee pods you have in your office!
